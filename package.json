@@ -1,0 +1,17 @@
+{
+  "name": "pi-bash-timeout",
+  "version": "0.1.0",
+  "description": "Execution-only bash and powershell timeout for Pi, including codemode calls",
+  "private": true,
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:docker": "bash test/docker.sh"
+  }
+}
