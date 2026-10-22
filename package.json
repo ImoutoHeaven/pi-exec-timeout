@@ -1,6 +1,6 @@
 {
   "name": "pi-bash-timeout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Execution-only bash and powershell timeout for Pi, including codemode calls",
   "private": true,
   "type": "module",
